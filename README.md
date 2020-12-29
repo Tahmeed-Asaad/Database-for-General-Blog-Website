@@ -47,10 +47,26 @@
 
 ## Relational Schema
 
-**Branch** (<span style="text-decoration: underline">BID</span>: integer, location: string).  
-**Employee** (EID: integer, Ename: string, salary: integer, designation: string, BID: integer).  
-**Customer** (Account_number: integer, Customer_name: string, balance: integer, address: string, BID: integer).  
-**Transaction** (TID: integer, deposit: integer, withdraw: integer, transaction_date: string, EID: integer, Account_number: integer). 
+1.**user_info**(user_id(pk),username,password,email)    
+
+2.**posts**(post_id(pk),date,post_title,user_id(fk),post_category,post_body,post_comment_count,post_rating,post_like_count)    
+
+3.**post_likes**(post_like_id(pk), post_id(fk),user_id(fk))  
+
+4.**comment_likes**(comment_like_id(pk),post_id(fk),comment_id(pk),user_id(fk))  
+
+5.**reply_likes**(reply_like_id(pk),post_id(fk),comment_id(pk),Reply_Id(Pk),user_id(fk))  
+
+6.**Ratings**(Ratings_id(pk),user_id(fk),Post_id(fk))  
+
+7.**Comment**(comment_Id(pk),post_ID(fk),user_id(fk),comment_date,comment_content,comment_like_count)  
+
+8.**Categories**(Category_Ids(pk),Category Name,Category_description)  
+
+9.**Reply**(Reply_Id(PK),post_id(fk),comment_id(fk),user_id(fk),reply_content,reply_date,Reply_like_count)  
+
+
+
 
 ## Entity Relationship Diagram
  
