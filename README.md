@@ -74,7 +74,8 @@
  
   <h3>   </h3>
 
- <img src="DEMO_IMAGES/ERD.png">
+ <a id="raw-url" href="https://github.com/Tahmeed-Asaad/Database-for-General-Blog-Website/blob/master/ER%20DIAGRAM.pdf">Download ER Diagram</a>
+
 
  </div>
 
