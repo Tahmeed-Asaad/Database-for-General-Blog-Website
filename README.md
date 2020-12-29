@@ -13,6 +13,8 @@
 
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 
+* [Database Diagram](#database-diagram)
+
 * [Demo Screenshots](#demo-screenshots)
 
 * [Setup](#setup)
@@ -75,6 +77,17 @@
   <h3>   </h3>
 
  <a id="raw-url" href="https://github.com/Tahmeed-Asaad/Database-for-General-Blog-Website/blob/master/ER%20DIAGRAM.pdf">Download ER Diagram</a>
+
+
+ </div>
+ 
+ ## Database Diagram
+ 
+ <div> 
+ 
+  <h3>   </h3>
+
+ <a id="raw-url" href="https://github.com/Tahmeed-Asaad/Database-for-General-Blog-Website/blob/master/Database%20Diagram.pdf">Download Database Diagram</a>
 
 
  </div>
