@@ -110,6 +110,6 @@
  
  ## Setup
  
-Oracle Database should be setup. The SQL scripts should be executed in the order mentioned in the 'Bank-Management-System-Using-Distributed-Database/PROJECT IRRESPECTIVE OF SERVER SITE/SOME PROBLEMS AND REMINDERS.txt' file.
+Mircosoft SQL Server and Microsoft SQL Server Management Studio should be setup properly. Then the sql queries present int the sql files can be executed opening the sql files with Microsoft SQL Server Management Studio.
 
 
